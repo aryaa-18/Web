@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.main {
+    text-align: center;
+}
+
+.question {
+    color: white;
+}
+
+.gif {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: lightblue;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.no:hover {
+    position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+    .before-gif,
+    .after-gif {
+        width: 80%;
+    }
+    button {
+        margin: 10px;
+    }
+}
